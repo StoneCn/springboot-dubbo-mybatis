@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stone.mapper.ProductMapper">
+    <!--目的：为Dao接口方法提供SQL语句-->
+
+    <!--映射实体对象-->
+   <!-- <resultMap id="UserResultMap" type="com.stone.model.User">
+        <id property="userId" column="userid" />
+        <result property="userName" column="username" />
+        <result property="age" column="age" />
+    </resultMap>-->
+
+    <!--增加商品信息-->
+    <insert id="save" parameterType="product">
+        INSERT INTO product(name,price) VALUES (#{name},#{price})
+    </insert>
+
+    <!--获取某个商品的信息-->
+    <select id="selectOne" parameterType="long" resultType="product">
+        select * from product where id = #{id}
+    </select>
+
+
+
+<!--在queryConditionCount和queryCondition中都用到了同样的一段sql,所有可以抽取出来,直接进行引用-->
+    <sql id="querySql">
+        <where>
+            <if test="keyword!=null">
+                AND username LIKE concat("%",#{keyword},"%")
+            </if>
+            <if test="beginAge!=null">
+                AND age >= #{beginAge}
+            </if>
+            <if test="endAge!=null">
+                AND age &lt;= #{endAge}
+            </if>
+        </where>
+    </sql>
+
+    <select id="queryConditionCount" resultType="long">
+        select count(*) from user
+        <where>
+            <if test="keyword!=null">
+                AND username LIKE concat("%",#{keyword},"%")
+            </if>
+            <if test="beginAge!=null">
+                AND age >= #{beginAge}
+            </if>
+            <if test="endAge!=null">
+                AND age &lt;= #{endAge}
+            </if>
+        </where>
+    </select>
+
+    <!--<select id="queryCondition" resultMap="UserResultMap">
+        select * from user
+        <include refid="querySql"/>
+        <if test="currentPage!=null">
+            limit #{start},#{pageSize}
+        </if>
+    </select>-->
+
+</mapper>

@@ -1,0 +1,833 @@
+2018-01-22 15:09:21,947  INFO ApplicationServer:48 - Starting ApplicationServer on DESKTOP-EAJNMBI with PID 20664 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 15:09:21,949  INFO ApplicationServer:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 15:09:21,997  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:09:21 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:09:22,154  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 15:09:22,421  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes\dubbo\dubbo-server.xml]
+ 2018-01-22 15:09:22,549  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 15:09:23,158  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8089 (http)
+ 2018-01-22 15:09:23,241  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1248 ms
+ 2018-01-22 15:09:23,333  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 15:09:23,337  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 15:09:23,337  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 15:09:23,338  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 15:09:23,338  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 15:09:23,677  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:09:21 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:09:23,731  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 15:09:23,732  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 15:09:23,755  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:09:23,755  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:09:23,781  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:09:23,878  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 15:09:23,890  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:09:23,963  INFO AbstractConfig:510 -  [DUBBO] Export dubbo service com.stone.service.IProductService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:09:23,964  INFO AbstractConfig:470 -  [DUBBO] Export dubbo service com.stone.service.IProductService to url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=20664&side=provider&timestamp=1516604963901, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:09:24,041  INFO AbstractServer:69 -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.56.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:09:24,078  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8089 (http)
+ 2018-01-22 15:09:24,084  INFO ApplicationServer:57 - Started ApplicationServer in 2.312 seconds (JVM running for 2.947)
+ 2018-01-22 15:11:46,343  INFO ApplicationServer:48 - Starting ApplicationServer on DESKTOP-EAJNMBI with PID 20648 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 15:11:46,345  INFO ApplicationServer:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 15:11:46,395  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:11:46 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:11:46,566  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 15:11:46,834  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes\dubbo\dubbo-server.xml]
+ 2018-01-22 15:11:46,959  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 15:11:47,553  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8089 (http)
+ 2018-01-22 15:11:47,671  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1282 ms
+ 2018-01-22 15:11:47,795  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 15:11:47,798  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 15:11:47,799  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 15:11:47,799  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 15:11:47,799  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 15:11:48,135  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:11:46 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:11:48,179  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 15:11:48,180  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 15:11:48,216  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:11:48,216  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:11:48,243  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:11:48,336  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 15:11:48,348  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:11:48,415  INFO AbstractConfig:510 -  [DUBBO] Export dubbo service com.stone.service.IProductService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:11:48,415  INFO AbstractConfig:470 -  [DUBBO] Export dubbo service com.stone.service.IProductService to url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=20648&side=provider&timestamp=1516605108359, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:11:48,415  INFO AbstractConfig:481 -  [DUBBO] Register dubbo service com.stone.service.IProductService url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=20648&side=provider&timestamp=1516605108359 to registry registry://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=is-dubbo-server&dubbo=2.5.3&pid=20648&register=true&registry=zookeeper&timestamp=1516605108354, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:11:48,509  INFO AbstractServer:69 -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.56.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:11:48,523  INFO ZookeeperRegistry:232 -  [DUBBO] Load registry store file C:\Users\stone\.dubbo\dubbo-registry-127.0.0.1.cache, data: {com.stone.service.IProductService=empty://192.168.56.1/com.stone.service.IProductService?application=dubbo-ssm-server&category=configurators&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=2560&side=consumer&timestamp=1516519771391 empty://192.168.56.1/com.stone.service.IProductService?application=dubbo-ssm-server&category=routers&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=2560&side=consumer&timestamp=1516519771391 dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=dubbo-ssm-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=16860&side=provider&timestamp=1516519753422, com.stone.service.IHelloWorldService=empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=configurators&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=routers&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=8832&side=provider&timestamp=1516514925199 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=21592&side=provider&timestamp=1516514942746 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=20756&side=provider&timestamp=1516514951139}, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:11:48,529  INFO ZkEventThread:64 - Starting ZkClient event thread.
+ 2018-01-22 15:11:48,533  INFO ZooKeeper:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+ 2018-01-22 15:11:48,533  INFO ZooKeeper:100 - Client environment:host.name=windows10.microdone.cn
+ 2018-01-22 15:11:48,533  INFO ZooKeeper:100 - Client environment:java.version=1.8.0_111
+ 2018-01-22 15:11:48,534  INFO ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+ 2018-01-22 15:11:48,534  INFO ZooKeeper:100 - Client environment:java.home=E:\tool\Java\jdk1.8.0_111\jre
+ 2018-01-22 15:11:48,534  INFO ZooKeeper:100 - Client environment:java.class.path=E:\tool\Java\jdk1.8.0_111\jre\lib\charsets.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\deploy.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\access-bridge-64.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\cldrdata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\dnsns.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jaccess.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jfxrt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\localedata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\nashorn.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunec.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunjce_provider.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunmscapi.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunpkcs11.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\zipfs.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\javaws.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jce.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfr.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfxswt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jsse.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\management-agent.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\plugin.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\resources.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\rt.jar;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-api\target\classes;E:\Intellij-idea-javaproject\.m2\MyRepository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\101tec\zkclient\0.2\zkclient-0.2.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\log4j\log4j\1.2.14\log4j-1.2.14.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\jline\jline\0.9.94\jline-0.9.94.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-web\1.5.9.RELEASE\spring-boot-starter-web-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter\1.5.9.RELEASE\spring-boot-starter-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot\1.5.9.RELEASE\spring-boot-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-autoconfigure\1.5.9.RELEASE\spring-boot-autoconfigure-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-tomcat\1.5.9.RELEASE\spring-boot-starter-tomcat-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hibernate\hibernate-validator\5.3.6.Final\hibernate-validator-5.3.6.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-web\4.3.13.RELEASE\spring-web-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-aop\4.3.13.RELEASE\spring-aop-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-beans\4.3.13.RELEASE\spring-beans-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-context\4.3.13.RELEASE\spring-context-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-webmvc\4.3.13.RELEASE\spring-webmvc-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-expression\4.3.13.RELEASE\spring-expression-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-log4j\1.3.8.RELEASE\spring-boot-starter-log4j-1.3.8.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\junit\junit\4.12\junit-4.12.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-core\4.3.13.RELEASE\spring-core-4.3.13.RELEASE.jar;D:\tool\JetBrains\toolbox\apps\IDEA-U\ch-0\172.4343.14\lib\idea_rt.jar
+ 2018-01-22 15:11:48,536  INFO ZooKeeper:100 - Client environment:java.library.path=E:\tool\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\tool\apache-maven-3.3.9\bin;D:\developTool\m2\repository;D:\tool\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\tool\PuTTY\;D:\tool\TortoiseGit\bin;C:\Users\stone\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\stone\AppData\Local\Programs\Python\Python36\;E:\tool\Java\jdk1.8.0_111\bin;E:\tool\Java\jdk1.8.0_111\jre\bin;D:\developTool\m2\repository;;D:\tool\SSH Communications Security\SSH Secure Shell;C:\Users\stone\AppData\Local\Microsoft\WindowsApps;E:\tool\apache-maven-3.3.9\bin;D:\tool\SSH Secure Shell;.
+ 2018-01-22 15:11:48,536  INFO ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\stone\AppData\Local\Temp\
+ 2018-01-22 15:11:48,536  INFO ZooKeeper:100 - Client environment:java.compiler=<NA>
+ 2018-01-22 15:11:48,536  INFO ZooKeeper:100 - Client environment:os.name=Windows 10
+ 2018-01-22 15:11:48,537  INFO ZooKeeper:100 - Client environment:os.arch=amd64
+ 2018-01-22 15:11:48,537  INFO ZooKeeper:100 - Client environment:os.version=10.0
+ 2018-01-22 15:11:48,537  INFO ZooKeeper:100 - Client environment:user.name=stone
+ 2018-01-22 15:11:48,537  INFO ZooKeeper:100 - Client environment:user.home=C:\Users\stone
+ 2018-01-22 15:11:48,537  INFO ZooKeeper:100 - Client environment:user.dir=E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent
+ 2018-01-22 15:11:48,538  INFO ZooKeeper:438 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@208e9ef6
+ 2018-01-22 15:11:48,550  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 15:11:49,555  WARN ClientCnxn:1089 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2018-01-22 15:11:50,660  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 15:11:51,662  WARN ClientCnxn:1089 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2018-01-22 15:11:52,763  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 15:11:53,764  WARN ClientCnxn:1089 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2018-01-22 15:11:54,866  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 15:11:55,867  WARN ClientCnxn:1089 - Session 0x0 for server null, unexpected error, closing socket connection and attempting reconnect
+ java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:717)
+	at org.apache.zookeeper.ClientCnxnSocketNIO.doTransport(ClientCnxnSocketNIO.java:350)
+	at org.apache.zookeeper.ClientCnxn$SendThread.run(ClientCnxn.java:1068)
+2018-01-22 15:13:18,168  INFO ApplicationServer:48 - Starting ApplicationServer on DESKTOP-EAJNMBI with PID 4228 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 15:13:18,171  INFO ApplicationServer:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 15:13:18,242  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:13:18 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:13:18,466  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 15:13:18,788  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes\dubbo\dubbo-server.xml]
+ 2018-01-22 15:13:18,902  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 15:13:19,505  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8089 (http)
+ 2018-01-22 15:13:19,591  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1354 ms
+ 2018-01-22 15:13:19,692  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 15:13:19,696  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 15:13:19,697  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 15:13:19,697  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 15:13:19,697  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 15:13:20,052  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:13:18 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:13:20,098  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 15:13:20,099  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 15:13:20,120  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:13:20,120  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:13:20,148  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:13:20,239  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 15:13:20,249  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,325  INFO AbstractConfig:510 -  [DUBBO] Export dubbo service com.stone.service.IProductService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,326  INFO AbstractConfig:470 -  [DUBBO] Export dubbo service com.stone.service.IProductService to url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,326  INFO AbstractConfig:481 -  [DUBBO] Register dubbo service com.stone.service.IProductService url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257 to registry registry://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=is-dubbo-server&dubbo=2.5.3&pid=4228&register=true&registry=zookeeper&timestamp=1516605200253, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,419  INFO AbstractServer:69 -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.56.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,430  INFO ZookeeperRegistry:232 -  [DUBBO] Load registry store file C:\Users\stone\.dubbo\dubbo-registry-127.0.0.1.cache, data: {com.stone.service.IProductService=empty://192.168.56.1/com.stone.service.IProductService?application=dubbo-ssm-server&category=configurators&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=2560&side=consumer&timestamp=1516519771391 empty://192.168.56.1/com.stone.service.IProductService?application=dubbo-ssm-server&category=routers&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=2560&side=consumer&timestamp=1516519771391 dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=dubbo-ssm-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=16860&side=provider&timestamp=1516519753422, com.stone.service.IHelloWorldService=empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=configurators&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=routers&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=8832&side=provider&timestamp=1516514925199 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=21592&side=provider&timestamp=1516514942746 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=20756&side=provider&timestamp=1516514951139}, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,435  INFO ZkEventThread:64 - Starting ZkClient event thread.
+ 2018-01-22 15:13:20,439  INFO ZooKeeper:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+ 2018-01-22 15:13:20,440  INFO ZooKeeper:100 - Client environment:host.name=windows10.microdone.cn
+ 2018-01-22 15:13:20,440  INFO ZooKeeper:100 - Client environment:java.version=1.8.0_111
+ 2018-01-22 15:13:20,440  INFO ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+ 2018-01-22 15:13:20,441  INFO ZooKeeper:100 - Client environment:java.home=E:\tool\Java\jdk1.8.0_111\jre
+ 2018-01-22 15:13:20,441  INFO ZooKeeper:100 - Client environment:java.class.path=E:\tool\Java\jdk1.8.0_111\jre\lib\charsets.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\deploy.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\access-bridge-64.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\cldrdata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\dnsns.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jaccess.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jfxrt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\localedata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\nashorn.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunec.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunjce_provider.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunmscapi.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunpkcs11.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\zipfs.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\javaws.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jce.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfr.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfxswt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jsse.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\management-agent.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\plugin.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\resources.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\rt.jar;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-api\target\classes;E:\Intellij-idea-javaproject\.m2\MyRepository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\101tec\zkclient\0.2\zkclient-0.2.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\log4j\log4j\1.2.14\log4j-1.2.14.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\jline\jline\0.9.94\jline-0.9.94.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-web\1.5.9.RELEASE\spring-boot-starter-web-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter\1.5.9.RELEASE\spring-boot-starter-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot\1.5.9.RELEASE\spring-boot-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-autoconfigure\1.5.9.RELEASE\spring-boot-autoconfigure-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-tomcat\1.5.9.RELEASE\spring-boot-starter-tomcat-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hibernate\hibernate-validator\5.3.6.Final\hibernate-validator-5.3.6.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-web\4.3.13.RELEASE\spring-web-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-aop\4.3.13.RELEASE\spring-aop-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-beans\4.3.13.RELEASE\spring-beans-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-context\4.3.13.RELEASE\spring-context-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-webmvc\4.3.13.RELEASE\spring-webmvc-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-expression\4.3.13.RELEASE\spring-expression-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-log4j\1.3.8.RELEASE\spring-boot-starter-log4j-1.3.8.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\junit\junit\4.12\junit-4.12.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-core\4.3.13.RELEASE\spring-core-4.3.13.RELEASE.jar;D:\tool\JetBrains\toolbox\apps\IDEA-U\ch-0\172.4343.14\lib\idea_rt.jar
+ 2018-01-22 15:13:20,443  INFO ZooKeeper:100 - Client environment:java.library.path=E:\tool\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\tool\apache-maven-3.3.9\bin;D:\developTool\m2\repository;D:\tool\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\tool\PuTTY\;D:\tool\TortoiseGit\bin;C:\Users\stone\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\stone\AppData\Local\Programs\Python\Python36\;E:\tool\Java\jdk1.8.0_111\bin;E:\tool\Java\jdk1.8.0_111\jre\bin;D:\developTool\m2\repository;;D:\tool\SSH Communications Security\SSH Secure Shell;C:\Users\stone\AppData\Local\Microsoft\WindowsApps;E:\tool\apache-maven-3.3.9\bin;D:\tool\SSH Secure Shell;.
+ 2018-01-22 15:13:20,443  INFO ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\stone\AppData\Local\Temp\
+ 2018-01-22 15:13:20,443  INFO ZooKeeper:100 - Client environment:java.compiler=<NA>
+ 2018-01-22 15:13:20,444  INFO ZooKeeper:100 - Client environment:os.name=Windows 10
+ 2018-01-22 15:13:20,444  INFO ZooKeeper:100 - Client environment:os.arch=amd64
+ 2018-01-22 15:13:20,444  INFO ZooKeeper:100 - Client environment:os.version=10.0
+ 2018-01-22 15:13:20,444  INFO ZooKeeper:100 - Client environment:user.name=stone
+ 2018-01-22 15:13:20,444  INFO ZooKeeper:100 - Client environment:user.home=C:\Users\stone
+ 2018-01-22 15:13:20,445  INFO ZooKeeper:100 - Client environment:user.dir=E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent
+ 2018-01-22 15:13:20,445  INFO ZooKeeper:438 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@261d8190
+ 2018-01-22 15:13:20,456  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 15:13:20,457  INFO ClientCnxn:849 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+ 2018-01-22 15:13:20,578  INFO ClientCnxn:1207 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100188d9a0d0000, negotiated timeout = 30000
+ 2018-01-22 15:13:20,580  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+ 2018-01-22 15:13:20,584  INFO ZookeeperRegistry:302 -  [DUBBO] Register: dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,715  INFO ZookeeperRegistry:325 -  [DUBBO] Subscribe: provider://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,836  INFO ZookeeperRegistry:422 -  [DUBBO] Notify urls for subscribe url provider://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257, urls: [empty://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:13:20,887  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8089 (http)
+ 2018-01-22 15:13:20,890  INFO ApplicationServer:57 - Started ApplicationServer in 2.958 seconds (JVM running for 3.602)
+ 2018-01-22 15:50:43,997  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 15828 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 15:50:44,001  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 15:50:44,081  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:50:44 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:50:44,248  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 15:50:44,586  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 15:50:44,710  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 15:50:45,371  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 15:50:45,457  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1390 ms
+ 2018-01-22 15:50:45,552  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 15:50:45,555  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 15:50:45,556  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 15:50:45,556  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 15:50:45,556  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 15:50:45,589  WARN AnnotationConfigEmbeddedWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stone.service.IProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ 2018-01-22 15:50:45,604  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 15:50:45,701 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productService in com.stone.controller.ProductController required a bean of type 'com.stone.service.IProductService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.stone.service.IProductService' in your configuration.
+
+ 2018-01-22 15:53:21,385  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 11756 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 15:53:21,387  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 15:53:21,441  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:53:21 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:53:21,647  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 15:53:21,972  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 15:53:22,078  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 15:53:22,682  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 15:53:22,759  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1322 ms
+ 2018-01-22 15:53:22,860  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 15:53:22,863  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 15:53:22,865  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 15:53:22,865  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 15:53:22,865  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 15:53:22,900  WARN AnnotationConfigEmbeddedWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'productController': Unsatisfied dependency expressed through field 'productService'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.stone.service.IProductService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+ 2018-01-22 15:53:22,916  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 15:53:22,999 ERROR LoggingFailureAnalysisReporter:42 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field productService in com.stone.controller.ProductController required a bean of type 'com.stone.service.IProductService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.stone.service.IProductService' in your configuration.
+
+ 2018-01-22 15:59:52,897  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 13368 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 15:59:52,899  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 15:59:52,947  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:59:52 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:59:53,103  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 15:59:53,440  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 15:59:53,555  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 15:59:54,178  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 15:59:54,256  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1313 ms
+ 2018-01-22 15:59:54,362  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 15:59:54,366  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 15:59:54,367  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 15:59:54,367  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 15:59:54,368  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 15:59:54,707  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:59:52 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:59:54,766  INFO RequestMappingHandlerMapping:543 - Mapped "{[/products/{productid}],methods=[POST],consumes=[application/json],produces=[application/json]}" onto public com.stone.entity.Product com.stone.controller.ProductController.getProduct(java.lang.Long,javax.servlet.http.HttpServletRequest)
+ 2018-01-22 15:59:54,769  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 15:59:54,770  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 15:59:54,789  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:59:54,789  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:59:54,813  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 15:59:54,906  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 15:59:54,916  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:59:54,933  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 15:59:54,941 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 15:59:54,944  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 15:59:52 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 15:59:54,946  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 15:59:54,948  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 15:59:54,949  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:03:57,306  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 2820 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:03:57,309  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:03:57,366  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:03:57 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:03:57,566  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:03:57,891  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:03:58,021  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:03:58,678  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:03:58,759  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1398 ms
+ 2018-01-22 16:03:58,855  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:03:58,859  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:03:58,860  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:03:58,860  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:03:58,860  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:03:59,256  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:03:57 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:03:59,309  INFO RequestMappingHandlerMapping:543 - Mapped "{[/products/{productid}],methods=[POST]}" onto public com.stone.entity.Product com.stone.controller.ProductController.getProduct(java.lang.Long,javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:03:59,313  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:03:59,314  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:03:59,353  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:03:59,353  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:03:59,383  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:03:59,477  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:03:59,491  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:03:59,506  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:03:59,511 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:03:59,514  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:03:57 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:03:59,517  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:03:59,519  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:03:59,520  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:08:18,581  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 8452 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:08:18,583  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:08:18,629  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:08:18 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:08:18,800  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:08:19,060  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:08:19,166  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:08:19,795  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:08:19,873  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1248 ms
+ 2018-01-22 16:08:19,965  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:08:19,969  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:08:19,970  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:08:19,970  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:08:19,971  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:08:20,309  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:08:18 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:08:20,360  INFO RequestMappingHandlerMapping:543 - Mapped "{[/products/{productid}],methods=[POST]}" onto public com.stone.entity.Product com.stone.controller.ProductController.getProduct(java.lang.Long,javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:08:20,362  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:08:20,363  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:08:20,385  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:08:20,386  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:08:20,410  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:08:20,503  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:08:20,517  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:08:20,534  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:08:20,541 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:08:20,544  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:08:18 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:08:20,548  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:08:20,550  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:08:20,551  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:10:03,649  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 2196 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:10:03,651  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:10:03,699  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:10:03 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:10:03,896  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:10:04,159  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:10:04,282  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:10:04,933  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:10:05,012  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1316 ms
+ 2018-01-22 16:10:05,117  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:10:05,120  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:10:05,121  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:10:05,121  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:10:05,121  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:10:05,437  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:10:03 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:10:05,479  INFO RequestMappingHandlerMapping:543 - Mapped "{[/products/{productid}],methods=[POST]}" onto public com.stone.entity.Product com.stone.controller.ProductController.getProduct(java.lang.Long,javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:10:05,481  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:10:05,482  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:10:05,515  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:10:05,516  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:10:05,540  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:10:05,640  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:10:05,652  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:10:05,665  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:10:05,670 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:10:05,673  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:10:03 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:10:05,675  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:10:05,677  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:10:05,678  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:19:40,306  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 16484 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:19:40,308  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:19:40,369  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:19:40 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:19:40,572  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:19:41,036  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:19:41,198  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:19:41,575  WARN AnnotationConfigEmbeddedWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name '${dubbo.protocol.name}' defined in null: Could not resolve placeholder 'dubbo.protocol.name' in value "${dubbo.protocol.name}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'dubbo.protocol.name' in value "${dubbo.protocol.name}"
+ 2018-01-22 16:19:41,581  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:19:41,586 ERROR SpringApplication:771 - Application startup failed
+ org.springframework.beans.factory.BeanDefinitionStoreException: Invalid bean definition with name '${dubbo.protocol.name}' defined in null: Could not resolve placeholder 'dubbo.protocol.name' in value "${dubbo.protocol.name}"; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'dubbo.protocol.name' in value "${dubbo.protocol.name}"
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:223)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.processProperties(PropertySourcesPlaceholderConfigurer.java:180)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.postProcessBeanFactory(PropertySourcesPlaceholderConfigurer.java:152)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:283)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:163)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:687)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:525)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'dubbo.protocol.name' in value "${dubbo.protocol.name}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:174)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:236)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$2.resolveStringValue(PropertySourcesPlaceholderConfigurer.java:172)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveStringValue(BeanDefinitionVisitor.java:282)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.resolveValue(BeanDefinitionVisitor.java:209)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitPropertyValues(BeanDefinitionVisitor.java:141)
+	at org.springframework.beans.factory.config.BeanDefinitionVisitor.visitBeanDefinition(BeanDefinitionVisitor.java:82)
+	at org.springframework.beans.factory.config.PlaceholderConfigurerSupport.doProcessProperties(PlaceholderConfigurerSupport.java:220)
+	... 13 more
+2018-01-22 16:20:22,095  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 16948 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:20:22,097  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:20:22,147  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:20:22 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:20:22,408  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:20:22,754  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:20:22,901  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:20:23,688  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:20:23,777  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1635 ms
+ 2018-01-22 16:20:23,904  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:20:23,912  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:20:23,913  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:20:23,913  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:20:23,914  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:20:24,098  WARN AnnotationConfigEmbeddedWebApplicationContext:551 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'productService' is expected to be of type 'com.stone.service.IProductService' but was actually of type 'com.alibaba.dubbo.config.spring.ServiceBean'
+ 2018-01-22 16:20:24,114  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:20:24,121 ERROR SpringApplication:771 - Application startup failed
+ org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'productController': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'productService' is expected to be of type 'com.stone.service.IProductService' but was actually of type 'com.alibaba.dubbo.config.spring.ServiceBean'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:321)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'productService' is expected to be of type 'com.stone.service.IProductService' but was actually of type 'com.alibaba.dubbo.config.spring.ServiceBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:378)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:522)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:496)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:627)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:169)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:318)
+	... 17 more
+2018-01-22 16:20:24,134  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:20:24,135  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:21:22,020  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 19604 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:21:22,022  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:21:22,078  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:21:22 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:21:22,287  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:21:22,642  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:21:22,791  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:21:23,581  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:21:23,672  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1600 ms
+ 2018-01-22 16:21:23,780  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:21:23,785  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:21:23,786  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:21:23,786  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:21:23,787  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:21:24,203  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:21:22 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:21:24,254  INFO RequestMappingHandlerMapping:543 - Mapped "{[/products/{productid}],methods=[POST]}" onto public com.stone.entity.Product com.stone.controller.ProductController.getProduct(java.lang.Long,javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:21:24,257  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:21:24,258  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:21:24,293  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:21:24,293  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:21:24,325  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:21:24,447  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:21:24,464  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:21:24,480  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:21:24,487 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:21:24,490  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:21:22 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:21:24,492  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:21:24,494  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:21:24,495  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:22:15,076  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 15852 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:22:15,079  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:22:15,137  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:22:15 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:22:15,360  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:22:15,787  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:22:15,954  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:22:16,785  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:22:16,875  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1743 ms
+ 2018-01-22 16:22:16,987  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:22:16,991  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:22:16,992  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:22:16,992  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:22:16,992  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:22:17,420  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:22:15 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:22:17,493  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:22:17,494  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:22:17,520  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:22:17,521  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:22:17,553  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:22:17,683  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:22:17,701  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:22:17,722  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:22:17,729 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:22:17,732  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@eafc191: startup date [Mon Jan 22 16:22:15 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:22:17,735  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:22:17,737  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:22:17,738  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:47,229  INFO ApplicationServer:48 - Starting ApplicationServer on DESKTOP-EAJNMBI with PID 22880 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:25:47,232  INFO ApplicationServer:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:25:47,282  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:25:47 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:25:47,494  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:25:47,915  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes\dubbo\dubbo-server.xml]
+ 2018-01-22 16:25:48,028  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:25:48,681  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8089 (http)
+ 2018-01-22 16:25:48,762  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1484 ms
+ 2018-01-22 16:25:48,864  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:25:48,867  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:25:48,868  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:25:48,868  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:25:48,869  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:25:49,218  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:25:47 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:25:49,264  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:25:49,265  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:25:49,300  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:25:49,301  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:25:49,327  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:25:49,422  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:25:49,434  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,504  INFO AbstractConfig:510 -  [DUBBO] Export dubbo service com.stone.service.IProductService to local registry, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,505  INFO AbstractConfig:470 -  [DUBBO] Export dubbo service com.stone.service.IProductService to url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,505  INFO AbstractConfig:481 -  [DUBBO] Register dubbo service com.stone.service.IProductService url dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444 to registry registry://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?application=is-dubbo-server&dubbo=2.5.3&pid=22880&register=true&registry=zookeeper&timestamp=1516609549441, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,602  INFO AbstractServer:69 -  [DUBBO] Start NettyServer bind /0.0.0.0:20880, export /192.168.56.1:20880, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,614  INFO ZookeeperRegistry:232 -  [DUBBO] Load registry store file C:\Users\stone\.dubbo\dubbo-registry-127.0.0.1.cache, data: {com.stone.service.IProductService=empty://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=4228&side=provider&timestamp=1516605200257, com.stone.service.IHelloWorldService=empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=configurators&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=routers&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=8832&side=provider&timestamp=1516514925199 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=21592&side=provider&timestamp=1516514942746 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=20756&side=provider&timestamp=1516514951139}, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,621  INFO ZkEventThread:64 - Starting ZkClient event thread.
+ 2018-01-22 16:25:49,625  INFO ZooKeeper:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+ 2018-01-22 16:25:49,625  INFO ZooKeeper:100 - Client environment:host.name=windows10.microdone.cn
+ 2018-01-22 16:25:49,626  INFO ZooKeeper:100 - Client environment:java.version=1.8.0_111
+ 2018-01-22 16:25:49,626  INFO ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+ 2018-01-22 16:25:49,626  INFO ZooKeeper:100 - Client environment:java.home=E:\tool\Java\jdk1.8.0_111\jre
+ 2018-01-22 16:25:49,626  INFO ZooKeeper:100 - Client environment:java.class.path=E:\tool\Java\jdk1.8.0_111\jre\lib\charsets.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\deploy.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\access-bridge-64.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\cldrdata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\dnsns.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jaccess.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jfxrt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\localedata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\nashorn.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunec.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunjce_provider.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunmscapi.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunpkcs11.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\zipfs.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\javaws.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jce.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfr.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfxswt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jsse.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\management-agent.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\plugin.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\resources.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\rt.jar;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-server\target\classes;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-api\target\classes;E:\Intellij-idea-javaproject\.m2\MyRepository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\101tec\zkclient\0.2\zkclient-0.2.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\log4j\log4j\1.2.14\log4j-1.2.14.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\jline\jline\0.9.94\jline-0.9.94.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-web\1.5.9.RELEASE\spring-boot-starter-web-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter\1.5.9.RELEASE\spring-boot-starter-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot\1.5.9.RELEASE\spring-boot-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-autoconfigure\1.5.9.RELEASE\spring-boot-autoconfigure-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-tomcat\1.5.9.RELEASE\spring-boot-starter-tomcat-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hibernate\hibernate-validator\5.3.6.Final\hibernate-validator-5.3.6.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-web\4.3.13.RELEASE\spring-web-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-aop\4.3.13.RELEASE\spring-aop-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-beans\4.3.13.RELEASE\spring-beans-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-context\4.3.13.RELEASE\spring-context-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-webmvc\4.3.13.RELEASE\spring-webmvc-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-expression\4.3.13.RELEASE\spring-expression-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-log4j\1.3.8.RELEASE\spring-boot-starter-log4j-1.3.8.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\junit\junit\4.12\junit-4.12.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-core\4.3.13.RELEASE\spring-core-4.3.13.RELEASE.jar;D:\tool\JetBrains\toolbox\apps\IDEA-U\ch-0\172.4343.14\lib\idea_rt.jar
+ 2018-01-22 16:25:49,629  INFO ZooKeeper:100 - Client environment:java.library.path=E:\tool\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\tool\apache-maven-3.3.9\bin;D:\developTool\m2\repository;D:\tool\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\tool\PuTTY\;D:\tool\TortoiseGit\bin;C:\Users\stone\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\stone\AppData\Local\Programs\Python\Python36\;E:\tool\Java\jdk1.8.0_111\bin;E:\tool\Java\jdk1.8.0_111\jre\bin;D:\developTool\m2\repository;;D:\tool\SSH Communications Security\SSH Secure Shell;C:\Users\stone\AppData\Local\Microsoft\WindowsApps;E:\tool\apache-maven-3.3.9\bin;D:\tool\SSH Secure Shell;.
+ 2018-01-22 16:25:49,630  INFO ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\stone\AppData\Local\Temp\
+ 2018-01-22 16:25:49,630  INFO ZooKeeper:100 - Client environment:java.compiler=<NA>
+ 2018-01-22 16:25:49,630  INFO ZooKeeper:100 - Client environment:os.name=Windows 10
+ 2018-01-22 16:25:49,630  INFO ZooKeeper:100 - Client environment:os.arch=amd64
+ 2018-01-22 16:25:49,631  INFO ZooKeeper:100 - Client environment:os.version=10.0
+ 2018-01-22 16:25:49,631  INFO ZooKeeper:100 - Client environment:user.name=stone
+ 2018-01-22 16:25:49,631  INFO ZooKeeper:100 - Client environment:user.home=C:\Users\stone
+ 2018-01-22 16:25:49,632  INFO ZooKeeper:100 - Client environment:user.dir=E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent
+ 2018-01-22 16:25:49,634  INFO ZooKeeper:438 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@19f21b6b
+ 2018-01-22 16:25:49,655  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 16:25:49,658  INFO ClientCnxn:849 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+ 2018-01-22 16:25:49,727  INFO ClientCnxn:1207 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100188d9a0d0001, negotiated timeout = 30000
+ 2018-01-22 16:25:49,728  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+ 2018-01-22 16:25:49,729  INFO ZookeeperRegistry:302 -  [DUBBO] Register: dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:49,891  INFO ZookeeperRegistry:325 -  [DUBBO] Subscribe: provider://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:50,009  INFO ZookeeperRegistry:422 -  [DUBBO] Notify urls for subscribe url provider://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, urls: [empty://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:25:50,055  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8089 (http)
+ 2018-01-22 16:25:50,059  INFO ApplicationServer:57 - Started ApplicationServer in 2.998 seconds (JVM running for 3.61)
+ 2018-01-22 16:25:58,579  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 2364 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:25:58,581  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:25:58,629  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:25:58 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:25:58,795  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:25:59,084  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:25:59,204  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:25:59,868  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:25:59,946  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1321 ms
+ 2018-01-22 16:26:00,049  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:26:00,054  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:26:00,054  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:26:00,055  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:26:00,055  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:26:00,366  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:25:58 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:26:00,418  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:26:00,419  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:26:00,440  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:26:00,440  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:26:00,463  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:26:00,560  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:26:00,569  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:26:00,582  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:26:00,586 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:26:00,588  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:25:58 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:26:00,590  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:26:00,591  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:26:00,592  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:26:12,205  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 21412 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:26:12,207  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:26:12,259  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:26:12 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:26:12,450  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:26:12,711  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:26:12,839  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:26:13,442  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:26:13,518  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1264 ms
+ 2018-01-22 16:26:13,614  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:26:13,618  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:26:13,619  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:26:13,619  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:26:13,620  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:26:13,966  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:26:12 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:26:14,024  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:26:14,025  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:26:14,047  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:26:14,047  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:26:14,071  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:26:14,172  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:26:14,186  INFO AbstractConfig:107 -  [DUBBO] The service ready on spring started. service: com.stone.service.IProductService, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:26:14,204  INFO AutoConfigurationReportLoggingInitializer:101 - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+ 2018-01-22 16:26:14,212 ERROR SpringApplication:771 - Application startup failed
+ java.lang.IllegalStateException: ref not allow null!
+	at com.alibaba.dubbo.config.ServiceConfig.checkRef(ServiceConfig.java:248)
+	at com.alibaba.dubbo.config.ServiceConfig.doExport(ServiceConfig.java:203)
+	at com.alibaba.dubbo.config.ServiceConfig.export(ServiceConfig.java:143)
+	at com.alibaba.dubbo.config.spring.ServiceBean.onApplicationEvent(ServiceBean.java:109)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:393)
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:347)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:883)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.finishRefresh(EmbeddedWebApplicationContext.java:144)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.stone.ApplicationClient.main(ApplicationClient.java:18)
+2018-01-22 16:26:14,215  INFO AnnotationConfigEmbeddedWebApplicationContext:984 - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:26:12 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:26:14,218  INFO AnnotationMBeanExporter:449 - Unregistering JMX-exposed beans on shutdown
+ 2018-01-22 16:26:14,219  INFO AbstractConfig:450 -  [DUBBO] Run shutdown hook now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:26:14,220  INFO AbstractRegistryFactory:63 -  [DUBBO] Close all registries [], dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:28:58,779  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 9976 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:28:58,781  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:28:58,853  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:28:58 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:28:59,102  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:28:59,499  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:28:59,629  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:29:00,046  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327 - Bean '${dubbo.application.name}' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018-01-22 16:29:00,062  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327 - Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018-01-22 16:29:00,063  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327 - Bean 'productService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018-01-22 16:29:00,356  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:29:00,432  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1584 ms
+ 2018-01-22 16:29:00,523  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:29:00,527  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:29:00,528  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:29:00,528  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:29:00,528  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:29:00,781  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:28:58 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:29:00,838  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:29:00,838  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:29:00,859  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:29:00,860  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:29:00,885  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:29:00,977  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:29:01,030  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8088 (http)
+ 2018-01-22 16:29:01,034  INFO ApplicationClient:57 - Started ApplicationClient in 2.487 seconds (JVM running for 3.089)
+ 2018-01-22 16:31:31,912  INFO ApplicationClient:48 - Starting ApplicationClient on DESKTOP-EAJNMBI with PID 10176 (E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes started by stone in E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent)
+ 2018-01-22 16:31:31,915  INFO ApplicationClient:593 - No active profile set, falling back to default profiles: default
+ 2018-01-22 16:31:31,962  INFO AnnotationConfigEmbeddedWebApplicationContext:583 - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:31:31 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:31:32,133  INFO Version:30 - HV000001: Hibernate Validator 5.3.6.Final
+ 2018-01-22 16:31:32,393  INFO XmlBeanDefinitionReader:317 - Loading XML bean definitions from file [E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes\dubbo\dubbo-client.xml]
+ 2018-01-22 16:31:32,532  INFO LoggerFactory:? - using logger: com.alibaba.dubbo.common.logger.log4j.Log4jLoggerAdapter
+ 2018-01-22 16:31:33,058  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327 - Bean '${dubbo.application.name}' of type [com.alibaba.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018-01-22 16:31:33,066  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327 - Bean 'com.alibaba.dubbo.config.RegistryConfig' of type [com.alibaba.dubbo.config.RegistryConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018-01-22 16:31:33,068  INFO PostProcessorRegistrationDelegate$BeanPostProcessorChecker:327 - Bean 'productService' of type [com.alibaba.dubbo.config.spring.ReferenceBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+ 2018-01-22 16:31:33,397  INFO TomcatEmbeddedServletContainer:89 - Tomcat initialized with port(s): 8088 (http)
+ 2018-01-22 16:31:33,473  INFO ContextLoader:276 - Root WebApplicationContext: initialization completed in 1514 ms
+ 2018-01-22 16:31:33,568  INFO ServletRegistrationBean:190 - Mapping servlet: 'dispatcherServlet' to [/]
+ 2018-01-22 16:31:33,571  INFO FilterRegistrationBean:258 - Mapping filter: 'characterEncodingFilter' to: [/*]
+ 2018-01-22 16:31:33,571  INFO FilterRegistrationBean:258 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+ 2018-01-22 16:31:33,572  INFO FilterRegistrationBean:258 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+ 2018-01-22 16:31:33,572  INFO FilterRegistrationBean:258 - Mapping filter: 'requestContextFilter' to: [/*]
+ 2018-01-22 16:31:33,656  INFO ZookeeperRegistry:232 -  [DUBBO] Load registry store file C:\Users\stone\.dubbo\dubbo-registry-127.0.0.1.cache, data: {com.stone.service.IProductService=empty://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&category=configurators&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, com.stone.service.IHelloWorldService=empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=configurators&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 empty://192.168.56.1/com.stone.service.IHelloWorldService?application=shop-client-mgrsite&category=routers&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=15228&side=consumer&timestamp=1516514963924 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=8832&side=provider&timestamp=1516514925199 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=21592&side=provider&timestamp=1516514942746 dubbo://192.168.56.1:20880/com.stone.service.IHelloWorldService?anyhost=true&application=shop-server&dubbo=2.5.3&interface=com.stone.service.IHelloWorldService&methods=sayHello&pid=20756&side=provider&timestamp=1516514951139}, dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 16:31:33,664  INFO ZkEventThread:64 - Starting ZkClient event thread.
+ 2018-01-22 16:31:33,668  INFO ZooKeeper:100 - Client environment:zookeeper.version=3.4.5-1392090, built on 09/30/2012 17:52 GMT
+ 2018-01-22 16:31:33,668  INFO ZooKeeper:100 - Client environment:host.name=windows10.microdone.cn
+ 2018-01-22 16:31:33,668  INFO ZooKeeper:100 - Client environment:java.version=1.8.0_111
+ 2018-01-22 16:31:33,668  INFO ZooKeeper:100 - Client environment:java.vendor=Oracle Corporation
+ 2018-01-22 16:31:33,669  INFO ZooKeeper:100 - Client environment:java.home=E:\tool\Java\jdk1.8.0_111\jre
+ 2018-01-22 16:31:33,669  INFO ZooKeeper:100 - Client environment:java.class.path=E:\tool\Java\jdk1.8.0_111\jre\lib\charsets.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\deploy.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\access-bridge-64.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\cldrdata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\dnsns.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jaccess.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\jfxrt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\localedata.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\nashorn.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunec.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunjce_provider.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunmscapi.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\sunpkcs11.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\ext\zipfs.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\javaws.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jce.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfr.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jfxswt.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\jsse.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\management-agent.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\plugin.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\resources.jar;E:\tool\Java\jdk1.8.0_111\jre\lib\rt.jar;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-client-mgrsite\target\classes;E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent\IntelligentService-dubbo-api\target\classes;E:\Intellij-idea-javaproject\.m2\MyRepository\com\alibaba\dubbo\2.5.3\dubbo-2.5.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\javassist\javassist\3.21.0-GA\javassist-3.21.0-GA.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\netty\netty\3.2.5.Final\netty-3.2.5.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\101tec\zkclient\0.2\zkclient-0.2.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\log4j\log4j\1.2.14\log4j-1.2.14.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\zookeeper\zookeeper\3.4.5\zookeeper-3.4.5.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\slf4j-log4j12\1.7.25\slf4j-log4j12-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\jline\jline\0.9.94\jline-0.9.94.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-web\1.5.9.RELEASE\spring-boot-starter-web-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter\1.5.9.RELEASE\spring-boot-starter-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot\1.5.9.RELEASE\spring-boot-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-autoconfigure\1.5.9.RELEASE\spring-boot-autoconfigure-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-tomcat\1.5.9.RELEASE\spring-boot-starter-tomcat-1.5.9.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-core\8.5.23\tomcat-embed-core-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\tomcat-annotations-api\8.5.23\tomcat-annotations-api-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-el\8.5.23\tomcat-embed-el-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\apache\tomcat\embed\tomcat-embed-websocket\8.5.23\tomcat-embed-websocket-8.5.23.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hibernate\hibernate-validator\5.3.6.Final\hibernate-validator-5.3.6.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\javax\validation\validation-api\1.1.0.Final\validation-api-1.1.0.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\jboss\logging\jboss-logging\3.3.1.Final\jboss-logging-3.3.1.Final.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\classmate\1.3.4\classmate-1.3.4.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-databind\2.8.10\jackson-databind-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-annotations\2.8.0\jackson-annotations-2.8.0.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\com\fasterxml\jackson\core\jackson-core\2.8.10\jackson-core-2.8.10.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-web\4.3.13.RELEASE\spring-web-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-aop\4.3.13.RELEASE\spring-aop-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-beans\4.3.13.RELEASE\spring-beans-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-context\4.3.13.RELEASE\spring-context-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-webmvc\4.3.13.RELEASE\spring-webmvc-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-expression\4.3.13.RELEASE\spring-expression-4.3.13.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\boot\spring-boot-starter-log4j\1.3.8.RELEASE\spring-boot-starter-log4j-1.3.8.RELEASE.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\junit\junit\4.12\junit-4.12.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;E:\Intellij-idea-javaproject\.m2\MyRepository\org\springframework\spring-core\4.3.13.RELEASE\spring-core-4.3.13.RELEASE.jar;D:\tool\JetBrains\toolbox\apps\IDEA-U\ch-0\172.4343.14\lib\idea_rt.jar
+ 2018-01-22 16:31:33,670  INFO ZooKeeper:100 - Client environment:java.library.path=E:\tool\Java\jdk1.8.0_111\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;E:\tool\apache-maven-3.3.9\bin;D:\developTool\m2\repository;D:\tool\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;D:\tool\PuTTY\;D:\tool\TortoiseGit\bin;C:\Users\stone\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\stone\AppData\Local\Programs\Python\Python36\;E:\tool\Java\jdk1.8.0_111\bin;E:\tool\Java\jdk1.8.0_111\jre\bin;D:\developTool\m2\repository;;D:\tool\SSH Communications Security\SSH Secure Shell;C:\Users\stone\AppData\Local\Microsoft\WindowsApps;E:\tool\apache-maven-3.3.9\bin;D:\tool\SSH Secure Shell;.
+ 2018-01-22 16:31:33,670  INFO ZooKeeper:100 - Client environment:java.io.tmpdir=C:\Users\stone\AppData\Local\Temp\
+ 2018-01-22 16:31:33,670  INFO ZooKeeper:100 - Client environment:java.compiler=<NA>
+ 2018-01-22 16:31:33,671  INFO ZooKeeper:100 - Client environment:os.name=Windows 10
+ 2018-01-22 16:31:33,671  INFO ZooKeeper:100 - Client environment:os.arch=amd64
+ 2018-01-22 16:31:33,671  INFO ZooKeeper:100 - Client environment:os.version=10.0
+ 2018-01-22 16:31:33,671  INFO ZooKeeper:100 - Client environment:user.name=stone
+ 2018-01-22 16:31:33,672  INFO ZooKeeper:100 - Client environment:user.home=C:\Users\stone
+ 2018-01-22 16:31:33,672  INFO ZooKeeper:100 - Client environment:user.dir=E:\Intellij-idea-javaproject\IntelligentService-dubbo-parent
+ 2018-01-22 16:31:33,673  INFO ZooKeeper:438 - Initiating client connection, connectString=127.0.0.1:2181 sessionTimeout=30000 watcher=org.I0Itec.zkclient.ZkClient@2488b073
+ 2018-01-22 16:31:33,693  INFO ClientCnxn:966 - Opening socket connection to server 127.0.0.1/127.0.0.1:2181. Will not attempt to authenticate using SASL (unknown error)
+ 2018-01-22 16:31:33,694  INFO ClientCnxn:849 - Socket connection established to 127.0.0.1/127.0.0.1:2181, initiating session
+ 2018-01-22 16:31:33,755  INFO ClientCnxn:1207 - Session establishment complete on server 127.0.0.1/127.0.0.1:2181, sessionid = 0x100188d9a0d0002, negotiated timeout = 30000
+ 2018-01-22 16:31:33,756  INFO ZkClient:449 - zookeeper state changed (SyncConnected)
+ 2018-01-22 16:31:33,773  INFO ZookeeperRegistry:302 -  [DUBBO] Register: consumer://192.168.56.1/com.stone.service.IProductService?application=is-dubbo-client&category=consumers&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=10176&side=consumer&timestamp=1516609893606, dubbo version: 2.5.3, current host: 192.168.56.1
+ 2018-01-22 16:31:33,941  INFO ZookeeperRegistry:325 -  [DUBBO] Subscribe: consumer://192.168.56.1/com.stone.service.IProductService?application=is-dubbo-client&category=providers,configurators,routers&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=10176&side=consumer&timestamp=1516609893606, dubbo version: 2.5.3, current host: 192.168.56.1
+ 2018-01-22 16:31:34,322  INFO ZookeeperRegistry:422 -  [DUBBO] Notify urls for subscribe url consumer://192.168.56.1/com.stone.service.IProductService?application=is-dubbo-client&category=providers,configurators,routers&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=10176&side=consumer&timestamp=1516609893606, urls: [dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, empty://192.168.56.1/com.stone.service.IProductService?application=is-dubbo-client&category=configurators&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=10176&side=consumer&timestamp=1516609893606, empty://192.168.56.1/com.stone.service.IProductService?application=is-dubbo-client&category=routers&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=10176&side=consumer&timestamp=1516609893606], dubbo version: 2.5.3, current host: 192.168.56.1
+ 2018-01-22 16:31:34,429  INFO AbstractClient:287 -  [DUBBO] Successed connect to server /192.168.56.1:20880 from NettyClient 192.168.56.1 using dubbo version 2.5.3, channel is NettyChannel [channel=[id: 0x548e76f1, /192.168.56.1:7638 => /192.168.56.1:20880]], dubbo version: 2.5.3, current host: 192.168.56.1
+ 2018-01-22 16:31:34,430  INFO AbstractClient:105 -  [DUBBO] Start NettyClient DESKTOP-EAJNMBI/192.168.56.1 connect to the server /192.168.56.1:20880, dubbo version: 2.5.3, current host: 192.168.56.1
+ 2018-01-22 16:31:34,465  INFO AbstractConfig:423 -  [DUBBO] Refer dubbo service com.stone.service.IProductService from url zookeeper://127.0.0.1:2181/com.alibaba.dubbo.registry.RegistryService?anyhost=true&application=is-dubbo-client&check=false&dubbo=2.5.3&interface=com.stone.service.IProductService&methods=getProduct&pid=10176&side=consumer&timestamp=1516609893606, dubbo version: 2.5.3, current host: 192.168.56.1
+ 2018-01-22 16:31:34,665  INFO RequestMappingHandlerAdapter:534 - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@4eb7f003: startup date [Mon Jan 22 16:31:31 GMT+08:00 2018]; root of context hierarchy
+ 2018-01-22 16:31:34,706  INFO RequestMappingHandlerMapping:543 - Mapped "{[/products/{id}],methods=[POST]}" onto public com.stone.entity.Product com.stone.controller.ProductController.getProduct(java.lang.Long)
+ 2018-01-22 16:31:34,709  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+ 2018-01-22 16:31:34,710  INFO RequestMappingHandlerMapping:543 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+ 2018-01-22 16:31:34,731  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:31:34,731  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:31:34,756  INFO SimpleUrlHandlerMapping:362 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+ 2018-01-22 16:31:34,845  INFO AnnotationMBeanExporter:431 - Registering beans for JMX exposure on startup
+ 2018-01-22 16:31:34,909  INFO TomcatEmbeddedServletContainer:201 - Tomcat started on port(s): 8088 (http)
+ 2018-01-22 16:31:34,914  INFO ApplicationClient:57 - Started ApplicationClient in 3.168 seconds (JVM running for 3.783)
+ 2018-01-22 16:35:19,591  INFO DispatcherServlet:489 - FrameworkServlet 'dispatcherServlet': initialization started
+ 2018-01-22 16:35:19,608  INFO DispatcherServlet:508 - FrameworkServlet 'dispatcherServlet': initialization completed in 16 ms
+ 2018-01-22 17:04:08,036  WARN AbstractServer:197 -  [DUBBO] All clients has discontected from /192.168.56.1:20880. You can graceful shutdown now., dubbo version: 2.5.3, current host: 127.0.0.1
+ 2018-01-22 17:04:08,045  INFO DubboProtocol:130 -  [DUBBO] disconected from /192.168.56.1:7638,url:dubbo://192.168.56.1:20880/com.stone.service.IProductService?anyhost=true&application=is-dubbo-server&channel.readonly.sent=true&codec=dubbo&dubbo=2.5.3&heartbeat=60000&interface=com.stone.service.IProductService&methods=getProduct&pid=22880&side=provider&timestamp=1516609549444, dubbo version: 2.5.3, current host: 127.0.0.1
+ 

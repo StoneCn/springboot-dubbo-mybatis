@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="IntelligentService-dubbo-client-mgrsite:war">
+    <output-path>$PROJECT_DIR$/IntelligentService-dubbo-client-mgrsite/target</output-path>
+    <root id="archive" name="IntelligentService-dubbo-client-mgrsite-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="IntelligentService-dubbo-client-mgrsite:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stone.mapper.PermissionMapper">
+    <!--目的：为Dao接口方法提供SQL语句-->
+
+    <!--映射实体对象-->
+    <resultMap id="baseDepartment" type="Permission">
+        <id property="permissionId" column="permissionid" />
+        <result property="name" column="name" />
+        <result property="expression" column="expression" />
+    </resultMap>
+
+    <!--查询权限信息-->
+    <select id="selectOne" resultMap="baseDepartment" >
+        SELECT * from permission where permissionid = #{permissionId}
+    </select>
+
+
+    <!--增加权限信息-->
+    <insert id="save" parameterType="Permission" keyColumn="permissionid" keyProperty="permissionId" useGeneratedKeys="true">
+        INSERT INTO permission(name,expression) VALUES (#{name},#{expression})
+    </insert>
+
+
+</mapper>

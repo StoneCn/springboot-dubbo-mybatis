@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stone.mapper.EmpMapper">
+
+    <!--因为对象的properties和数据库表中的column名称不一致,所以要配置映射实体对象-->
+    <!--many2one中的外键也需要进行映射-->
+    <resultMap id="baseEmp" type="Employee">
+        <!--property: 对象中的属性名称-->
+        <!--column: 数据库表中的列名-->
+        <id property="empId" column="empid"/>
+        <result property="empName" column="empname"></result>
+
+        <!--property:指many方中维护的那个one方的名称-->
+        <!--column: 数据库表中的那个one方外键的名称-->
+        <!--要将查询的数据封装什么类型-->
+        <!--select: 选择查询语句-->
+
+        <association property="dept" column="dept_id" javaType="Department"
+                     select="com.stone.mapper.DeptMapper.selectOne"/>
+    </resultMap>
+
+    <!--查询员工的信息-->
+    <select id="selectOne" parameterType="long" resultMap="baseEmp">
+        select empname,dept_id from emp where empid = #{empId}
+    </select>
+
+
+
+    <!--查询所有的员工信息-->
+    <select id="selectAll" resultMap="baseEmp">
+        select e.empid,e.empname,d.deptid as d_deptid,d.deptname
+        as d_deptname from emp e LEFT JOIN dept d ON e.dept_id = d.deptid
+    </select>
+
+
+    <!--因为会出现N+1问题,所以不在使用这个查询方法
+      <association property="dept" column="dept_id" javaType="Department"
+                   select="com.stone.mapper.DeptMapper.selectOne"/>
+      解决N+1问题
+      <association property="dept" javaType="Department">
+          <id property="deptId" column="d_deptid"></id>
+          <result property="deptName" column="d_deptname"></result>
+      </association>
+      -->
+
+
+
+    <!--增加员工信息-->
+    <insert id="save" parameterType="Employee" keyColumn="empid" keyProperty="empId" useGeneratedKeys="true">
+        INSERT INTO emp(empname,dept_id) VALUES(#{empName},#{dept.deptId})
+    </insert>
+
+
+
+</mapper>

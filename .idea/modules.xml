@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/IntelligentService-dubbo-api/IntelligentService-dubbo-api.iml" filepath="$PROJECT_DIR$/IntelligentService-dubbo-api/IntelligentService-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelligentService-dubbo-client-mgrsite/IntelligentService-dubbo-client-mgrsite.iml" filepath="$PROJECT_DIR$/IntelligentService-dubbo-client-mgrsite/IntelligentService-dubbo-client-mgrsite.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelligentService-dubbo-parent.iml" filepath="$PROJECT_DIR$/IntelligentService-dubbo-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntelligentService-dubbo-server/IntelligentService-dubbo-server.iml" filepath="$PROJECT_DIR$/IntelligentService-dubbo-server/IntelligentService-dubbo-server.iml" />
+    </modules>
+  </component>
+</project>

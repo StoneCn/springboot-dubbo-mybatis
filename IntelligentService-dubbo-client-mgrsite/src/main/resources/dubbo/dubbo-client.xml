@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://code.alibabatech.com/schema/dubbo
+       http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+    <!--//1.配置服务应用名-->
+    <dubbo:application name="${dubbo.application.name}"/>
+    <!--//2.配置协议-->
+    <dubbo:protocol name="${dubbo.protocol.name}" port="${dubbo.protocol.port}"/>
+    <!--//3.配置注册中心-->
+    <dubbo:registry protocol="${dubbo.registry.protocol}" address="${dubbo.registry.address}" register="true"/>
+    <!--//4.引用服务-->
+    <dubbo:reference id="productService" interface="com.stone.service.IProductService"/>
+
+
+
+</beans>
